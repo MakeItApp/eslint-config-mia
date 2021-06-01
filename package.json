@@ -40,13 +40,13 @@
     "unit": "tap --no-esm -b -o tap.log tests/*.test.js",
     "version": "./scripts/update-version.sh ${npm_package_version} && git add CHANGELOG.md"
   },
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
     "tap": "^14.10.6"
   },
   "peerDependencies": {
-    "eslint": ">=6.8.0"
+    "eslint": ">=6.8.0",
+    "eslint-plugin-import": ">=2.0.0"
   },
   "engines": {
     "node": ">=10"

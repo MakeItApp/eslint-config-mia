@@ -250,7 +250,13 @@
     "prefer-template": "error",
     "require-yield": "error",
     "rest-spread-spacing": "error",
-    "sort-imports": "error",
+    "sort-imports": 0,
+    "import/order": ["error", {
+      "groups": [
+        ["builtin", "external"]
+      ],
+      "newlines-between": "always"
+    }],
     "symbol-description": "error",
     "template-curly-spacing": "error",
     "yield-star-spacing": "error"
